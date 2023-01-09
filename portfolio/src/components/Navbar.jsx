@@ -29,9 +29,6 @@ const Navbar = () => {
         {
             id : 6,
             link : "resume"
-        },{
-            id:7,
-            link:"portfolio"
         }
     ]
 
