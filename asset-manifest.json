@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6da96e10.css",
-    "main.js": "/static/js/main.a05a7cb0.js",
+    "main.css": "/static/css/main.3ca5eea2.css",
+    "main.js": "/static/js/main.a1dd03c8.js",
+    "static/media/sopping2.png": "/static/media/sopping2.6fdccfc21237070a66b0.png",
     "static/media/passport.jpeg": "/static/media/passport.521e17e957ecb0235a88.jpeg",
+    "static/media/licious2.jpg": "/static/media/licious2.e8ce11cdb77dc6afbb01.jpg",
+    "static/media/css.jpg": "/static/media/css.e3d2f1f5297428b0779c.jpg",
+    "static/media/sugar.jpg": "/static/media/sugar.119295768f70604d9b2a.jpg",
+    "static/media/typescript.png": "/static/media/typescript.4e3f27e6784d69f4f587.png",
+    "static/media/tailwind.png": "/static/media/tailwind.8e81e4c5944b034a5865.png",
+    "static/media/html.png": "/static/media/html.94972f53c025a8fb7e2b.png",
     "index.html": "/index.html",
-    "main.6da96e10.css.map": "/static/css/main.6da96e10.css.map",
-    "main.a05a7cb0.js.map": "/static/js/main.a05a7cb0.js.map"
+    "main.3ca5eea2.css.map": "/static/css/main.3ca5eea2.css.map",
+    "main.a1dd03c8.js.map": "/static/js/main.a1dd03c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da96e10.css",
-    "static/js/main.a05a7cb0.js"
+    "static/css/main.3ca5eea2.css",
+    "static/js/main.a1dd03c8.js"
   ]
 }
