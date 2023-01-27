@@ -9,6 +9,8 @@ import next from "../assets/next.png";
 import mongo from "../assets/mongo.png";
 import git2 from "../assets/git2.png";
 import tailwind from "../assets/tailwind.png";
+import git_rev from "../assets/git_rev.png"
+import vscode_rev from "../assets/vscode_rev.png"
 
 const Technical = () => {
   const techs = [
@@ -40,7 +42,7 @@ const Technical = () => {
       id: 5,
       src: typescript,
       title: "Typescript",
-      style: "shadow-yellow-500",
+      style: "shadow-gray-500",
     },
     {
       id: 6,
@@ -62,9 +64,9 @@ const Technical = () => {
     },
     {
       id: 9,
-      src: git2,
+      src: git_rev,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-yellow-400",
     },
     {
       id: 10,
@@ -74,7 +76,7 @@ const Technical = () => {
     },
     {
         id: 11,
-        src: tailwind,
+        src: vscode_rev,
         title: "VS Code",
         style: "shadow-blue-500",
       },
