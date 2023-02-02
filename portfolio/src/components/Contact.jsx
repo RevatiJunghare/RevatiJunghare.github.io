@@ -57,13 +57,13 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white" style={{height:"130vh"}}>
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full" style={{marginTop:"70px"}}>
+        <div className="pb-8" >
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <p className="py-6 text-xl">Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you</p>
+          <p className="py-6 text-xl" style={{marginLeft:"20px"}}>Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you</p>
         </div>
 
         <div className="lg:flex flex-row text-xl">
@@ -75,7 +75,7 @@ const Contact = () => {
         </div>
 
         {/* <div  style={{display:"flex",marginTop:"70px",marginLeft:"-40px"}}> */}
-          <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 gap-6 text-center py-8 px-12 sm:px-0 ">
+          <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 gap-6 text-center py-8 px-12 sm:px-0 " >
             {links.map(({ id, child, href, style, download }) => (
               <button
                 key={id}

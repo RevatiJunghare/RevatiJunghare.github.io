@@ -59,7 +59,7 @@ const Portfolio = () => {
 <div name="projects" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
 <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"  >
  
-  <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 sm:px-0 w-3/3 " >
+  <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 w-3/3 " >
               <div className="shadow-md shadow-blue-600 rounded-lg hover:scale-105 duration-500" style={{marginTop:"90px"}}>
                 <img src={farfetch} alt="" className="rounded-md duration-200 " style={{width:"480px",height:"250px",padding:"20px"}}/>
 

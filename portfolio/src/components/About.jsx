@@ -31,6 +31,7 @@ const About = () => {
             {links.map(({ id, child, href, style, download }) => (
               <li
                 key={id}
+                download={download}
                 className={
                   "flex justify-between items-center w-40 h-10 px-4  bg-blue-900 hover:rounded-md duration-300 hover:ml-[-10px]" +
                   " " +

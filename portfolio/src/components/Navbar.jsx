@@ -48,14 +48,14 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
            {
            links.map(({link , id ,href,download}) => (
-                <li key={id} className='px-4 cursor-pointer capitalize font-medium text-grey-500 hover:scale-110 duration-200'><Link to={link} href={href}  download={download} smooth duration={500}>{link}</Link></li>
+                <li key={id} download={download} className='px-4 cursor-pointer capitalize font-medium text-grey-500 hover:scale-110 duration-200'><Link to={link} href={href} download={download}   smooth duration={500}>{link}</Link></li>
            ))
            }
 
         </ul>
 
         <div onClick={()=> setNav(!nav)} className="cursor-pointer pr-4 z-10 text-grey-500 md:hidden">
-           {nav ? <FaTimes size={30}/> :  <FaBars size={30}/>}
+           {nav ? <FaTimes size={30} /> :  <FaBars size={30}/>}
         </div>
 
 
@@ -64,7 +64,7 @@ const Navbar = () => {
 
                {
                   links.map(({link , id , download ,href}) => (
-                       <li key={id}  className="px-4 cursor-pointer capitalize py-6 text-4xl"><Link to={link} href={href}  download={download} smooth duration={500}>{link}</Link></li>
+                       <li key={id} download={download}  className="px-4 cursor-pointer capitalize py-6 text-4xl"><Link to={link} href={href} download={download}  smooth duration={500}>{link}</Link></li>
                   ))
                   }
        
