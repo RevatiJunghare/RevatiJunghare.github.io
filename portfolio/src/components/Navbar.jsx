@@ -27,13 +27,14 @@ const Navbar = () => {
         {
             id :5,
             link : "contact"
-        },
-        {
-            id :6,
-            link : "Resume",
-            download: true,
-            href:"/Revati_Junghare_Resume.pdf"
-        },
+         }
+        //,
+        // {
+        //     id :6,
+        //     link : "resume",
+        //     download: true,
+        //      href:"/Revati_Junghare_Resume.pdf"
+        // },
         
         
     ]
