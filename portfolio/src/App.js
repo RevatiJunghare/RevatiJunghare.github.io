@@ -1,26 +1,28 @@
-import About from "./components/About";
-import Calender from "./components/Calender";
-import Contact from "./components/Contact";
-import  Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-//import SocialLinks from "./components/SocialLinks";
-import Statistics from "./components/Statistics";
-import Technical from "./components/Technical";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Components/Header/Header";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
+import Statistics from "./Pages/Statistics";
 
+
+
+// import Footer from "./Components/Footer/Footer"
+
+import "./style.css";
 function App() {
+
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Portfolio/>
+      <Header />
+      <Home />
+       <About />
+      <Projects />
       <Statistics/>
-      <Calender/>
-      <Technical/>
-      <Contact/>
-{/*       
-      <SocialLinks/> */}
+      <Contact />
+      <br/>
+      {/* <Footer/>  */}
     </div>
   );
 }
