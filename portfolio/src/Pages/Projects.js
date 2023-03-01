@@ -48,6 +48,18 @@ function Projects() {
             />
           </Col>
 
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://assets.indiadesire.com/images/Licious%202021%20Offers.jpg"
+              title="Licious Clone"
+              description="Licious aims to deliver the freshest meat and seafood to its customers' doorsteps. Available in seven Indian cities, it operates a farm-to-fork model and delivers more than 18,000 orders daily. Industries: Food & Beverage"
+              tech="Tech-Stacks"
+              techD="Html | Css | Javascript | React | Chakra-ui "
+              link="https://zesty-sherbet-4c14b4.netlify.app/"
+              a="https://github.com/RevatiJunghare/ludicrous-teeth-6192/tree/main/frito"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

@@ -11,6 +11,11 @@ import {
 
 function ToolStack() {
   return (
+    <>
+
+<h1 style={{ fontSize: "2.6em", textAlign: "center" }}>
+    <span className="purple">Tools</span> 
+    </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -39,6 +44,8 @@ function ToolStack() {
         <p>Netlify</p>
       </Col>
     </Row>
+
+    </>
   );
 }
 
