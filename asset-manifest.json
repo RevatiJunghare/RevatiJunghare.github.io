@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ae8d893.css",
-    "main.js": "/static/js/main.87105b3d.js",
-    "static/media/farfetch.jpg": "/static/media/farfetch.6b06eaf0edb437f8f302.jpg",
-    "static/media/sopping2.png": "/static/media/sopping2.6fdccfc21237070a66b0.png",
-    "static/media/passport.jpeg": "/static/media/passport.521e17e957ecb0235a88.jpeg",
-    "static/media/vscode_rev.png": "/static/media/vscode_rev.e66400756ccbdbfc0b31.png",
-    "static/media/snapdeal_rev.png": "/static/media/snapdeal_rev.87f98979b4434e9659b1.png",
-    "static/media/licious2.jpg": "/static/media/licious2.e8ce11cdb77dc6afbb01.jpg",
-    "static/media/css.jpg": "/static/media/css.e3d2f1f5297428b0779c.jpg",
-    "static/media/sugar.jpg": "/static/media/sugar.119295768f70604d9b2a.jpg",
-    "static/media/typescript.png": "/static/media/typescript.4e3f27e6784d69f4f587.png",
-    "static/media/tailwind.png": "/static/media/tailwind.8e81e4c5944b034a5865.png",
-    "static/media/html.png": "/static/media/html.94972f53c025a8fb7e2b.png",
+    "main.css": "/static/css/main.22d5364e.css",
+    "main.js": "/static/js/main.97ec5cd4.js",
+    "static/media/Revati_Junghare_Resume.pdf": "/static/media/Revati_Junghare_Resume.7bdf34d050eeb7c82fc5.pdf",
+    "static/media/passport_portfolio.jpg": "/static/media/passport_portfolio.7e02ef14082371628e39.jpg",
     "index.html": "/index.html",
-    "main.6ae8d893.css.map": "/static/css/main.6ae8d893.css.map",
-    "main.87105b3d.js.map": "/static/js/main.87105b3d.js.map"
+    "main.22d5364e.css.map": "/static/css/main.22d5364e.css.map",
+    "main.97ec5cd4.js.map": "/static/js/main.97ec5cd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ae8d893.css",
-    "static/js/main.87105b3d.js"
+    "static/css/main.22d5364e.css",
+    "static/js/main.97ec5cd4.js"
   ]
 }
