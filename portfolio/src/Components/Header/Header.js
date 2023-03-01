@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import {Link} from "react-scroll"
 import Button from "react-bootstrap/Button";
-import resume from "../../Assets/Revati_Junghare_Resume.pdf"
+import resume from "../../Assets/fp05_371-Revati_Junghare_Resume.pdf"
 
 
 function Header() {
@@ -120,7 +120,7 @@ function Header() {
                 className="fork-btn-inner"
                 onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1q3Qf-UCcIxLiOrchdM-VZZaFS7IOq_iY/view?usp=share_link"
+                      "https://drive.google.com/file/d/1TtgcZ8Zyzhe2HEFGwnL-RB-QgCnPbas_/view?usp=share_link"
                     );
                   }}
               >
