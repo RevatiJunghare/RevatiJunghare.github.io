@@ -1,7 +1,9 @@
 import React from 'react'
+import GitHubCalendar from 'react-github-calendar';
 
 const Statistics = () => {
   return (
+    <>
     <div style={{color:"white",display:'flex',alignItems:'center',justifyContent:"center"}}>
 
         <div  >
@@ -26,13 +28,30 @@ const Statistics = () => {
          </p>
     </div>
         </div>
-
-
-
-
     
 </div>
+
+
+
+
+
+<div style={{color:"white",display:'flex',alignItems:'center',justifyContent:"center"}}>
+
+<div style={{marginTop:"60px"}}>
+           <p className="text-4xl font-bold inline border-b-4 border-gray-500" style={{fontSize:"40px"}} >Github Calender</p>
+           <GitHubCalendar username="revatijunghare" />
+          
+        </div> 
+    
+</div>
+
+</>
   )
 }
 
 export default Statistics
+
+
+
+
+
