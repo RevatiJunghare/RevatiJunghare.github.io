@@ -14,12 +14,12 @@ function Home() {
     
         {
           id: 1,
-          child: (
+          child : (
             <>
               Resume <BsFillPersonLinesFill size={25} />
             </>
           ),
-          href: "/Revati_Junghare-Resume_fp05_371.pdf",
+          href: "/Revati-Junghare-Resume_fp05_371.pdf",
           style: "rounded-br-md",
           download: true,
         },
