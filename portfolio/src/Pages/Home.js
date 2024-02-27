@@ -5,7 +5,7 @@ import myImg from "../Assets/passport_portfolio.jpg";
 import SelfIntro from "../Components/selfintro/SelfIntro"
 import TypeWriter from "../Components/typewriter/TypeWriter";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Box } from "@mui/system";
+
 import resume from "../Assets/Revati_Junghare_Resume.pdf"
 
 
