@@ -6,8 +6,6 @@ import SelfIntro from "../Components/selfintro/SelfIntro"
 import TypeWriter from "../Components/typewriter/TypeWriter";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import resume from "../Assets/Revati_Junghare_Resume.pdf"
-
 
 function Home() {
     const links = [
