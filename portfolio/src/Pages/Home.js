@@ -17,7 +17,7 @@ function Home() {
               Resume <BsFillPersonLinesFill size={25} />
             </>
           ),
-          href: "/Revati-Junghare-Resume_fp05_371.pdf",
+          href: "/Revati-Junghare-Resume_fp05_371.6c348696138e1446139c (1).pdf",
           style: "rounded-br-md",
           download: true,
         },

@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import {Link} from "react-scroll"
 import Button from "react-bootstrap/Button";
-import resume from "../../Assets/Revati-Junghare-Resume_fp05_371.pdf"
+ import resume from "../../Assets/Revati-Junghare-Resume_fp05_371.6c348696138e1446139c (1).pdf"
 
 
 function Header() {
@@ -115,8 +115,7 @@ function Header() {
             <Nav.Item className="fork-btn">
             <a href={resume} download>
             <Button
-               //href="https://drive.google.com/file/d/1q3Qf-UCcIxLiOrchdM-VZZaFS7IOq_iY/view?usp=share_link"
-                //target="_blank"
+               
                 className="fork-btn-inner"
                 onClick={() => {
                     window.open(
