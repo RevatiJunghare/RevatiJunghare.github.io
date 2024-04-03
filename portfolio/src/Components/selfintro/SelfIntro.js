@@ -8,7 +8,7 @@ function SelfIntro() {
         <Row>
           <Col md={16} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              About
             </h1>
             <p className="home-about-body">
               Hi,👋 I'm <span style={{color: "#1bae58" , fontStyle:"italic"}}>Revati Junghare</span> an aspiring and determined <span style={{color: "#1bae58" , fontStyle:"italic"}}>Full Stack Web Developer</span>, curious to explore different industry-standard tech stacks and environments.
