@@ -33,12 +33,12 @@ function Home() {
               <img src={myImg} alt="home pic" className="img-fluid" />
             </Col>
             <Col md={7} className="home-header">
-              <h1  className="heading">
+              {/* <h1  className="heading">
                 Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
-              </h1>
+              </h1> */}
 
               <h1 className="heading-name ">
-                I'M
+                {/* I'M */}
                 <strong className="main-name br"> Revati Junghare</strong>
               </h1>
 
