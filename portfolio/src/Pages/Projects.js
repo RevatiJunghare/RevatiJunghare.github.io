@@ -20,7 +20,7 @@ function Projects() {
               description="Snapdeal was one of the largest online marketplaces in India. Snapdeal targets the value e-commerce segment, which Bahl estimated to be three times larger than the branded goods market."
               tech="Tech-Stacks"
               techD="Html | Css | Javascript | React | Redux | Chakra UI "
-              link="https://darling-mooncake-57603b.netlify.app/"
+              link="https://fashionista-rct201.netlify.app/"
               a="https://github.com/fahad9988/Fashionista"
             />
           </Col>
@@ -48,7 +48,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={6} className="project-card">
+          {/* <Col md={6} className="project-card">
             <ProjectCards
               imgPath="https://assets.indiadesire.com/images/Licious%202021%20Offers.jpg"
               title="Licious Clone"
@@ -58,7 +58,7 @@ function Projects() {
               link="https://zesty-sherbet-4c14b4.netlify.app/"
               a="https://github.com/RevatiJunghare/ludicrous-teeth-6192/tree/main/frito"
             />
-          </Col>
+          </Col> */}
 
         </Row>
       </Container>
