@@ -17,7 +17,7 @@ function Home() {
               Resume <BsFillPersonLinesFill size={25} />
             </>
           ),
-          href: "/Revati-Junghare-Resume_fp05_371.6c348696138e1446139c (1).pdf",
+          href: "/https://drive.google.com/file/d/1zzyL3WAgESMqAD23NlZgxL_XM3RzPADH/view?usp=sharing",
           style: "rounded-br-md",
           download: true,
         },
