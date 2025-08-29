@@ -6,7 +6,6 @@ import {
   SiHeroku,
   SiVercel,
   SiNetlify,
-  SiAmazonaws,
 } from "react-icons/si";
 
 function ToolStack() {
