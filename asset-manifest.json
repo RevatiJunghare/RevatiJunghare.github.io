@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.22d5364e.css",
-    "main.js": "/static/js/main.b1048c99.js",
+    "main.css": "/static/css/main.754cfc89.css",
+    "main.js": "/static/js/main.c1172949.js",
     "static/media/Revati-Junghare-Resume_fp05_371. (1).pdf": "/static/media/Revati-Junghare-Resume_fp05_371.6c348696138e1446139c (1).6c348696138e1446139c.pdf",
     "static/media/passport_portfolio.jpg": "/static/media/passport_portfolio.7e02ef14082371628e39.jpg",
     "index.html": "/index.html",
-    "main.22d5364e.css.map": "/static/css/main.22d5364e.css.map",
-    "main.b1048c99.js.map": "/static/js/main.b1048c99.js.map"
+    "main.754cfc89.css.map": "/static/css/main.754cfc89.css.map",
+    "main.c1172949.js.map": "/static/js/main.c1172949.js.map"
   },
   "entrypoints": [
-    "static/css/main.22d5364e.css",
-    "static/js/main.b1048c99.js"
+    "static/css/main.754cfc89.css",
+    "static/js/main.c1172949.js"
   ]
 }
