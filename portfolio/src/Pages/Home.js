@@ -26,31 +26,30 @@ function Home() {
 
   return (
     <section id="home"> 
+      
       <Container fluid className="home-section" id="home">
-        <Container className="home-content">
-          <Row>
-            <Col md={5} className="home-profile" style={{ paddingBottom: 20 }}>
-              <img src={myImg} alt="home pic" className="img-fluid" />
-            </Col>
-            <Col md={7} className="home-header">
-              {/* <h1  className="heading">
-                Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
-              </h1> */}
+      <Container
+  fluid
+  className="home-section"
+  id="home"
+>
+  <Container
+    className="home-content" style={{width:"100%",display:"flex",flexDirection:"column",alignItems:"center",gap:"20px"}}
+  >
+    <div xs={12} md={5} className="home-profile text-center" style={{
+    paddingBottom: window.innerWidth <= 768 ? "0" : "20px",
+  }}>
+      <img src={myImg} alt="home pic" className="img-fluid" />
+    </div>
 
-              <h1 className="heading-name ">
-                {/* I'M */}
-                <strong className="main-name br"> Revati Junghare</strong>
-              </h1>
-
-              <div style={{  textAlign: "left" }}>
-                <TypeWriter />
-              </div>
-            </Col>
-
-            
-            
-          </Row>
-        </Container>    
+    <div md={7} className="home-header" >
+      <div style={{ textAlign: "center" }}>
+        <TypeWriter />
+      </div>
+    </div>
+  </Container>
+</Container>
+   
       </Container>
       <SelfIntro/>
       {/* <div>

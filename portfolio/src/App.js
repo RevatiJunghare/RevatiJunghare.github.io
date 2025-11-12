@@ -11,6 +11,7 @@ import Statistics from "./Pages/Statistics";
 // import Footer from "./Components/Footer/Footer"
 
 import "./style.css";
+import Experience from "./Pages/Experience";
 function App() {
 
   return (
@@ -18,7 +19,7 @@ function App() {
       <Header />
       <Home />
        <About />
-       
+       <Experience/>
       <Projects />
       <Statistics/>
       <Contact />
